@@ -15,11 +15,11 @@ public class Note {
 	public String getTitle() {
 		return this.title;
 	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(title);
-	}
+//
+//	@Override
+//	public int hashCode() {
+//		return Objects.hash(title);
+//	}
 
 	@Override
 	public boolean equals(Object obj) {

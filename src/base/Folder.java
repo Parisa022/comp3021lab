@@ -36,10 +36,10 @@ public class Folder {
 		return this.name + ":" + nText + ":" + nImage;
 	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(name);
-	}
+//	@Override
+//	public int hashCode() {
+//		return Objects.hash(name);
+//	}
 
 	@Override
 	public boolean equals(Object obj) {
