@@ -114,4 +114,9 @@ public class NoteBook implements java.io.Serializable{
 		}
 		return true;
 	}
+
+	public void addFolder(String name) {
+		// TODO Auto-generated method stub
+		this.folders.add(new Folder(name));
+	}
 }

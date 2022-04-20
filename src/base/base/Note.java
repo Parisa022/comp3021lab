@@ -15,7 +15,7 @@ public class Note implements Comparable<Note>, java.io.Serializable {
 	public String getTitle() {
 		return this.title;
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)     

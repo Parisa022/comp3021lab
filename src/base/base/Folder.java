@@ -84,4 +84,15 @@ public class Folder implements Comparable<Folder>, java.io.Serializable{
 		}
 		return result;
 	}
+
+	public boolean removeNotes(String notename) {
+		// TODO Auto-generated method stub
+		for (Note n: notes) {
+			if (n.getTitle().equals(notename)) {
+				notes.remove(n);
+				return true;
+			}
+		}
+		return false;
+	}
 }

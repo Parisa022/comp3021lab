@@ -20,6 +20,10 @@ public class TextNote extends Note implements java.io.Serializable{
 		this.content = getTextFromFile(f.getAbsolutePath());
 	}
 	
+	public void setContent(String content) {
+		this.content = content;
+	}
+	
 	private String getTextFromFile(String absolutePath) {
 		// TODO Auto-generated method stub
 		String result = "";
@@ -53,5 +57,10 @@ public class TextNote extends Note implements java.io.Serializable{
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	public String getContent() {
+		// TODO Auto-generated method stub
+		return this.content;
 	}
 }
