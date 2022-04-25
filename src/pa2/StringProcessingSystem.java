@@ -14,7 +14,7 @@ public class StringProcessingSystem {
 
         // TODO 1: Split the string whenever there is a delimiter
         //         Output each substring in separate line
-        String[] arr = originalText.split(target);
+        String[] arr = originalText.split(target); 
         for(String a: arr) {
         	System.out.println(a);
         }
